@@ -5,15 +5,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/home_background_rev2"
     tools:context="com.example.hikineet.mp.HomeActivity">
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:hint="Keluar"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#000" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/appnama" />
 
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="151dp"
+        android:layout_centerVertical="true"
         android:onClick="mulaiPembelajaran"
         android:src="@drawable/pembelajaran" />
 
@@ -23,17 +47,19 @@
         android:layout_height="50dp"
         android:layout_alignLeft="@+id/imageView1"
         android:layout_alignStart="@+id/imageView1"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="34dp"
         android:onClick="tebaknamahewan"
         android:src="@drawable/tebaknama" />
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_alignLeft="@+id/imageView2"
         android:layout_alignStart="@+id/imageView2"
         android:layout_below="@+id/imageView2"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="35dp"
         android:onClick="tebaksuarahewan"
         android:src="@drawable/tebaksuara" />
 

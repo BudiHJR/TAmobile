@@ -17,9 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Belajar1Activity" />
-        <activity android:name=".HasilActivity" />
-        <activity android:name=".TebakKata1Activity" />
-        <activity android:name=".TebakKata2Activity"></activity>
+        <activity android:name=".DaftarBelajarActivity" />
+        <activity android:name=".DaftarTebakKataActivity" />
+        <activity android:name=".DaftarTebakSuaraActivity" />
     </application>
 
 </manifest>
