@@ -17,7 +17,7 @@ public class DaftarTebakSuaraActivity extends AppCompatActivity {
         findViewById(R.id.kucing).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //intent = new Intent(DaftarTebakSuaraActivity.this,TebakSuara1Activity.class);
+                intent = new Intent(DaftarTebakSuaraActivity.this,TebakSuara1Activity.class);
                 startActivity(intent);
             }
         });
@@ -25,7 +25,7 @@ public class DaftarTebakSuaraActivity extends AppCompatActivity {
         findViewById(R.id.kuda).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //ntent = new Intent(DaftarTebakSuaraActivity.this,TebakSuara2Activity.class);
+                intent = new Intent(DaftarTebakSuaraActivity.this,TebakSuara2Activity.class);
                 startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class DaftarTebakSuaraActivity extends AppCompatActivity {
         findViewById(R.id.monyet).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //intent = new Intent(DaftarTebakSuaraActivity.this,TebakSuara3Activity.class);
+                intent = new Intent(DaftarTebakSuaraActivity.this,TebakSuara3Activity.class);
                 startActivity(intent);
             }
         });
