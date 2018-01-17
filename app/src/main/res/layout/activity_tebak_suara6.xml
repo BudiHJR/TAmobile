@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#B2DFDB"
+    tools:context="com.example.hikineet.mp.TebakSuara6Activity">
+
+    <ImageView
+        android:id="@+id/suara"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/suara_kata" />
+
+    <ImageView
+        android:id="@+id/hewan1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/hewan3"
+        android:layout_alignLeft="@+id/hewan3"
+        android:layout_alignStart="@+id/hewan3"
+        android:src="@drawable/ayam" />
+
+    <ImageView
+        android:id="@+id/hewan2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/hewan4"
+        android:layout_alignLeft="@+id/hewan4"
+        android:layout_alignStart="@+id/hewan4"
+        android:src="@drawable/monyet" />
+
+    <ImageView
+        android:id="@+id/hewan3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/hewan4"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_toEndOf="@+id/hewan4"
+        android:layout_toRightOf="@+id/hewan4"
+        android:src="@drawable/harimau" />
+
+    <ImageView
+        android:id="@+id/hewan4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="34dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:src="@drawable/kuda" />
+
+
+
+</RelativeLayout>
